@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Craftal.Agency</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      body {
+        background-color: white;
+        background-image: linear-gradient(
+            to right,
+            #f8fafc 1px,
+            transparent 1px
+          ),
+          linear-gradient(to bottom, #f8fafc 1px, transparent 1px);
+        background-size: 30px 30px;
+        font-family: Inter;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="h-[60px] shadow-md rounded-sm px-10 flex items-center justify-between mt-4 bg-white mx-20"
+    >
+      <a href="index.html" class="text-xl font-bold">
+        Craftal
+        <span
+          class="inline-block w-[5px] h-[5px] rounded-full bg-blue-500"
+        ></span>
+      </a>
+      <nav>
+        <ul class="flex items-center flex-wrap gap-4">
+          <li>
+            <a
+              href="#home"
+              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div></div>
+    </header>
+    <!-- hero section -->
+    <div class="text-center mt-20 lg:mt-50 px-10">
+      <h1
+        class="text-[40px] sm:text-[60px] lg:text-[82px] leading-12 sm:leading-15 lg:leading-25 max-w-[1300px] mx-auto font-bold"
+      >
+        Affordable, Custom Websites for
+        <span class="text-blue-500 font-bold">Small Businesses</span>
+      </h1>
+      <p class="max-w-[900px] mt-10 text-md md:text-lg text-center mx-auto">
+        You're in the right place —
+
+        <span class="text-blue-500 font-bold">for just $175/month</span>, get a
+        custom website built to grow your small business. Ready to take the next
+        big step? Let’s get started.
+      </p>
+      <button
+        class="bg-blue-500 mt-10 px-8 py-2 hover:scale-101 transition-all duration-400 rounded-xl cursor-pointer text-white text-lg"
+      >
+        Get Started
+      </button>
+    </div>
+
+    <!-- our services -->
+    <div class="mt-20 lg:mt-80 px-10 mx-20">
+      <h2
+        class="text-center text-[40px] sm:text-[60px] lg:text-[62px] leading-12 sm:leading-15 lg:leading-25 font-bold"
+      >
+        Our Services
+      </h2>
+      <div class="w-1/2 flex gap-2 items-center">
+        <div>
+          <h2 class="text-4xl text-center">Custom Website Design</h2>
+          <p class="max-w-[300px] text-center mx-auto">
+            Modern, responsive websites tailored to your brand and business
+            goals.
+          </p>
+        </div>
+        <img
+          src="../assets/web-design.png"
+          alt="Web design 3d icon"
+          class="w-[400px]"
+        />
+      </div>
+      <div class="w-1/2 flex gap-2 items-center ml-auto">
+        <div>
+          <h2 class="text-4xl text-center">eCommerce Sites</h2>
+          <p class="max-w-[300px] text-center mx-auto">
+            Sell your products online with secure, easy-to-manage online stores.
+          </p>
+        </div>
+        <img
+          src="../assets/shopping.png"
+          alt="Web design 3d icon"
+          class="w-[400px]"
+        />
+      </div>
+      <div class="w-1/2 flex gap-2 items-center">
+        <div class="text-center">
+          <h2 class="text-4xl text-center">Booking & Appointment Sites</h2>
+          <p class="max-w-[300px] text-center mx-auto">
+            Perfect for salons, clinics, and service businesses needing online
+            bookings.
+          </p>
+        </div>
+        <img
+          src="../assets/booking.png"
+          alt="Web design 3d icon"
+          class="w-[400px]"
+        />
+      </div>
+      <div class="w-1/2 flex gap-2 items-center ml-auto">
+        <div>
+          <h2 class="text-4xl text-center">Landing Pages</h2>
+          <p class="max-w-[300px] text-center mx-auto">
+            High-converting pages for ads, promotions, or product launches.
+          </p>
+        </div>
+        <img
+          src="../assets/landing.png"
+          alt="Web design 3d icon"
+          class="w-[400px]"
+        />
+      </div>
+      <div class="w-1/2 flex gap-2 items-center ">
+        <div>
+          <h2 class="text-4xl text-center text-center">Website Redesign</h2>
+          <p class="max-w-[300px] text-center mx-auto">
+            Already have a site? We’ll refresh it and make it work better for
+            you.
+          </p>
+        </div>
+        <img
+          src="../assets/redesign.png"
+          alt="Web design 3d icon"
+          class="w-[400px]"
+        />
+      </div>
+      <div class="w-1/2 flex gap-2 items-center ml-auto">
+        <div>
+          <h2 class="text-4xl text-center">Maintenance & Support</h2>
+          <p class="max-w-[300px] text-center mx-auto">
+            Need updates or help? We offer ongoing support to keep your site
+            running smoothly.
+          </p>
+        </div>
+        <img
+          src="../assets/support.png"
+          alt="Web design 3d icon"
+          class="w-[400px]"
+        />
+      </div>
+    </div>
+
+    <!-- why choose us -->
+    <div class="text-center mt-20 px-10">
+      <h2
+        class="text-[40px] sm:text-[60px] lg:text-[62px] leading-12 sm:leading-15 lg:leading-25 font-bold"
+      >
+        Why Choose Us
+      </h2>
+      <div class="flex flex-col md:flex-row gap-10 mt-10">
+        <div
+          class="w-full md:w-1/3 bg-white rounded-lg border border-slate-200 shadow-lg p-8 shadow-slate/30"
+        >
+          <h2 class="text-3xl font-bold mb-8 text-blue-500">
+            Tailored for Small Business
+          </h2>
+          We understand your needs and build websites that fit your goals and
+          budget.
+        </div>
+        <div
+          class="w-full md:w-1/3 bg-white rounded-lg border border-slate-200 shadow-lg p-8 shadow-slate/30"
+        >
+          <h2 class="text-3xl font-bold mb-8 text-blue-500">Fast & Reliable</h2>
+          Launch quickly with clean, modern designs that work on every device.
+        </div>
+        <div
+          class="w-full md:w-1/3 bg-white rounded-lg border border-slate-200 shadow-lg p-8 shadow-slate/30"
+        >
+          <h2 class="text-3xl font-bold mb-8 text-blue-500">
+            Everything You Need
+          </h2>
+          From design to launch — we handle it all, so you can focus on your
+          business.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
