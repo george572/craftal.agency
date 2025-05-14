@@ -9,7 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Craftal.Agency</title>
+    <title>Craftal</title>
+    <link rel="icon" href="./favicon.png" type="image/x-icon" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
       body {
@@ -28,7 +29,7 @@
   <body>
     <!-- header -->
     <header
-      class="h-[60px] shadow-md rounded-sm px-10 flex items-center justify-between mt-4 bg-white mx-20"
+      class="h-[70px] text-gray-600 text-sm shadow-md shadow-slate-200 border border-slate-200 rounded-xl px-10 flex items-center justify-between mt-4 bg-white mx-2 md:mx-20"
     >
       <a href="index.html" class="text-xl font-bold">
         Craftal
@@ -41,159 +42,107 @@
           <li>
             <a
               href="#home"
-              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
+              class="hover:text-blue-500 font-medium transition-all duration-400ms"
               >Home</a
             >
           </li>
           <li>
             <a
               href="#about"
-              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
+              class="hover:text-blue-500 font-medium transition-all duration-400ms"
               >About</a
             >
           </li>
           <li>
             <a
               href="#services"
-              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
-              >Services</a
-            >
-          </li>
-          <li>
-            <a
-              href="#services"
-              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
+              class="hover:text-blue-500 font-medium transition-all duration-400ms"
               >Pricing</a
             >
           </li>
           <li>
             <a
               href="#contact"
-              class="hover:text-blue-500 font-medium hover:underline transition-all duration-400ms"
+              class="hover:text-blue-500 font-medium transition-all duration-400ms"
               >Contact</a
             >
           </li>
         </ul>
       </nav>
-      <div></div>
     </header>
     <!-- hero section -->
     <div class="text-center mt-20 lg:mt-50 px-10">
       <h1
-        class="text-[40px] sm:text-[60px] lg:text-[82px] leading-12 sm:leading-15 lg:leading-25 max-w-[1300px] mx-auto font-bold"
+        class="text-gray-800 text-[40px] sm:text-[60px] lg:text-[82px] leading-12 sm:leading-15 lg:leading-25 max-w-[1300px] mx-auto font-bold"
       >
         Affordable, Custom Websites for
-        <span class="text-blue-500 font-bold">Small Businesses</span>
+        <span
+          class="bg-gradient-to-l from-blue-500 to-blue-600 bg-clip-text text-transparent font-bold"
+          >Small Businesses</span
+        >
       </h1>
-      <p class="max-w-[900px] mt-10 text-md md:text-lg text-center mx-auto">
+      <p
+        class="text-gray-800 max-w-[900px] mt-10 text-md md:text-lg text-center mx-auto"
+      >
         You're in the right place —
 
-        <span class="text-blue-500 font-bold">for just $175/month</span>, get a
-        custom website built to grow your small business. Ready to take the next
-        big step? Let’s get started.
+        <span
+          class="font-bold bg-gradient-to-l from-blue-500 to-blue-600 bg-clip-text text-transparent"
+          >for just $175/month</span
+        >, get a custom website built to grow your small business. Ready to take
+        the next big step? Let’s get started.
       </p>
       <button
-        class="bg-blue-500 mt-10 px-8 py-2 hover:scale-101 transition-all duration-400 rounded-xl cursor-pointer text-white text-lg"
+        class="max-w-[200px] mt-10 cursor-pointer inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 w-full rounded-xl bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-1.5 text-white shadow hover:bg-[length:100%_150%]"
       >
         Get Started
       </button>
     </div>
 
     <!-- our services -->
-    <div class="mt-20 lg:mt-80 px-10 mx-20">
+    <div class="mt-20 lg:mt-40 px-10 mx-20">
       <h2
-        class="text-center text-[40px] sm:text-[60px] lg:text-[62px] leading-12 sm:leading-15 lg:leading-25 font-bold"
+        class="text-center text-[40px] sm:text-[60px] lg:text-[62px] leading-12 sm:leading-15 lg:leading-25 font-bold text-gray-800"
       >
         Our Services
       </h2>
-      <div class="w-1/2 flex gap-2 items-center">
-        <div>
-          <h2 class="text-4xl text-center">Custom Website Design</h2>
-          <p class="max-w-[300px] text-center mx-auto">
-            Modern, responsive websites tailored to your brand and business
-            goals.
+      <div class="flex my-20">
+        <div class="p-8 rounded-lg border border-slate-200 bg-white rotate-[-10deg] hover:rotate-[-5deg] transition-all duration-400ms hover:shadow-lg max-w-[300px] h-[400px]">
+          <span class="text-[40px] text-blue-500 font-bold">1</span>
+          <h3 class="text-2xl text-center font-bold text-gray-800 ">Custom Website Design</h3>
+          <p class="text-lg mt-10">
+            Modern, responsive websites tailored to your brand and business goals.
           </p>
         </div>
-        <img
-          src="../assets/web-design.png"
-          alt="Web design 3d icon"
-          class="w-[400px]"
-        />
-      </div>
-      <div class="w-1/2 flex gap-2 items-center ml-auto">
-        <div>
-          <h2 class="text-4xl text-center">eCommerce Sites</h2>
-          <p class="max-w-[300px] text-center mx-auto">
+        <div class="p-8 rounded-lg border border-slate-200 bg-white rotate-[5deg] hover:rotate-[2deg] transition-all duration-400ms hover:shadow-lg max-w-[300px] h-[400px]">
+          <span class="text-[40px] text-blue-500 font-bold">2</span>
+          <h3 class="text-2xl text-center font-bold text-gray-800 ">eCommerce Sites          </h3>
+          <p class="text-lg mt-10">
             Sell your products online with secure, easy-to-manage online stores.
           </p>
         </div>
-        <img
-          src="../assets/shopping.png"
-          alt="Web design 3d icon"
-          class="w-[400px]"
-        />
-      </div>
-      <div class="w-1/2 flex gap-2 items-center">
-        <div class="text-center">
-          <h2 class="text-4xl text-center">Booking & Appointment Sites</h2>
-          <p class="max-w-[300px] text-center mx-auto">
-            Perfect for salons, clinics, and service businesses needing online
-            bookings.
-          </p>
-        </div>
-        <img
-          src="../assets/booking.png"
-          alt="Web design 3d icon"
-          class="w-[400px]"
-        />
-      </div>
-      <div class="w-1/2 flex gap-2 items-center ml-auto">
-        <div>
-          <h2 class="text-4xl text-center">Landing Pages</h2>
-          <p class="max-w-[300px] text-center mx-auto">
+        <div class="p-8 rounded-lg border border-slate-200 bg-white rotate-[-5deg] hover:rotate-[2deg] transition-all duration-400ms hover:shadow-lg max-w-[300px] h-[400px]">
+          <span class="text-[40px] text-blue-500 font-bold">3</span>
+          <h3 class="text-2xl text-center font-bold text-gray-800 ">Landing Pages          </h3>
+          <p class="text-lg mt-10">
             High-converting pages for ads, promotions, or product launches.
           </p>
         </div>
-        <img
-          src="../assets/landing.png"
-          alt="Web design 3d icon"
-          class="w-[400px]"
-        />
-      </div>
-      <div class="w-1/2 flex gap-2 items-center ">
-        <div>
-          <h2 class="text-4xl text-center text-center">Website Redesign</h2>
-          <p class="max-w-[300px] text-center mx-auto">
-            Already have a site? We’ll refresh it and make it work better for
-            you.
+        <div class="p-8 rounded-lg border border-slate-200 bg-white rotate-[10deg] hover:rotate-[0deg] transition-all duration-400ms hover:shadow-lg max-w-[300px] h-[400px]">
+          <span class="text-[40px] text-blue-500 font-bold">4</span>
+          <h3 class="text-2xl text-center font-bold text-gray-800 ">Website Redesign
+          </h3>
+          <p class="text-lg mt-10">
+            Already have a site? We’ll refresh it and make it work better for you.
           </p>
         </div>
-        <img
-          src="../assets/redesign.png"
-          alt="Web design 3d icon"
-          class="w-[400px]"
-        />
-      </div>
-      <div class="w-1/2 flex gap-2 items-center ml-auto">
-        <div>
-          <h2 class="text-4xl text-center">Maintenance & Support</h2>
-          <p class="max-w-[300px] text-center mx-auto">
-            Need updates or help? We offer ongoing support to keep your site
-            running smoothly.
-          </p>
-        </div>
-        <img
-          src="../assets/support.png"
-          alt="Web design 3d icon"
-          class="w-[400px]"
-        />
       </div>
     </div>
 
     <!-- why choose us -->
     <div class="text-center mt-20 px-10">
       <h2
-        class="text-[40px] sm:text-[60px] lg:text-[62px] leading-12 sm:leading-15 lg:leading-25 font-bold"
+        class="text-[40px] text-gray-800 sm:text-[60px] lg:text-[62px] leading-12 sm:leading-15 lg:leading-25 font-bold"
       >
         Why Choose Us
       </h2>
