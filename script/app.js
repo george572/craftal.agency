@@ -2,7 +2,7 @@ gsap.registerPlugin(SplitText);
 
 let split1, split2, animation;
 
-window.addEventListener("load", () => {
+window.addEventListener("load", async () => {
   setup();
   const buttonElement = document.querySelector(".btn");
 
@@ -11,14 +11,15 @@ window.addEventListener("load", () => {
 
   animation && animation.revert();
 
-  animation = gsap.timeline()
+  animation = gsap
+    .timeline()
     .from(split1.lines, {
       rotationX: -100,
       transformOrigin: "50% 50% -150px",
       opacity: 0,
       duration: 0.8,
       ease: "power3",
-      stagger: 0.25
+      stagger: 0.25,
     })
     .to(split2.lines, {
       y: 0,
@@ -26,12 +27,17 @@ window.addEventListener("load", () => {
       duration: 0.4,
       ease: "power3",
     }) // start immediately after previous ends
-    .to(buttonElement, {
-      autoAlpha: 1,
-      y: 0,
-      duration: 0.8,
-      ease: "power3.out"
-    }, ">"); // immediately after previous too
+    .to(
+      buttonElement,
+      {
+        autoAlpha: 1,
+        y: 0,
+        duration: 0.8,
+        opacity: 1,
+        ease: "power3.out",
+      },
+      ">"
+    ); // immediately after previous too
 });
 
 function setup() {
