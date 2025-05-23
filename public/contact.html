@@ -87,51 +87,69 @@
         </ul>
       </nav>
     </header>
-    <section class="py-24 relative">
-      <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-        <div
-          class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1"
+
+    <section class="bg-white dark:bg-gray-900">
+      <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <h2
+          class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
         >
-          <div
-            class="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex"
-          >
-            <div
-              class="w-full flex-col justify-start lg:items-start items-center gap-4 flex"
+          Contact Us
+        </h2>
+        <p
+          class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl"
+        >
+          Got a website idea or need anything else? Let’s talk and make it
+          happen!
+        </p>
+        <form action="#" class="space-y-8 flex flex-col justify-center">
+          <div>
+            <label
+              for="email"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Your email</label
             >
-              <h2
-                class="text-gray-900 leading-10 text-4xl font-bold font-manrope lg:text-start text-center"
-              >
-                Crafting Bold Websites That Drive Results and Turn Heads
-              </h2>
-              <p
-                class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center"
-              >
-                At Craftal, we believe your website should be more than just a
-                digital presence—it should be a powerful tool that grows your
-                business. We focus on creating clean, modern designs that not
-                only look great but also offer a seamless user experience.
-                Whether you’re starting from scratch or need to refresh your
-                current site, we tailor everything to fit your unique goals and
-                audience. Our team combines creativity with smart strategy to
-                deliver websites that attract, engage, and convert visitors.
-                We’re passionate about making the web simple, effective, and
-                beautiful for you. Let’s work together to bring your vision to
-                life and help your business stand out online!
-              </p>
-            </div>
-            <a
-              href="contact.html"
-              class="max-w-[200px] mt-10 cursor-pointer inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 w-full rounded-xl bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-1.5 text-white shadow hover:bg-[length:100%_150%]"
-            >
-                Get Started
-            </a>
+            <input
+              type="email"
+              id="email"
+              class="shadow-sm border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              placeholder="name@mail.com"
+              required
+            />
           </div>
-          <img
-            class="lg:mx-0 mx-auto h-full rounded-3xl object-cover"
-            src="https://pagedone.io/asset/uploads/1717751272.png"
-            alt="about Us image"
-          />
-        </div>
+          <div>
+            <label
+              for="subject"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Your Name</label
+            >
+            <input
+              type="text"
+              id="subject"
+              class="block p-3 w-full text-sm text-gray-900 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              placeholder="John"
+              required
+            />
+          </div>
+          <div class="sm:col-span-2">
+            <label
+              for="message"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+              >Your message</label
+            >
+            <textarea
+              id="message"
+              rows="6"
+              class="block p-2.5 w-full text-sm text-gray-900 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+              placeholder="Leave a comment..."
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="max-w-[200px] mx-auto block cursor-pointer inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 rounded-xl bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-1.5 text-white shadow hover:bg-[length:100%_150%]"
+          >
+            Send message
+          </button>
+        </form>
       </div>
     </section>
 
